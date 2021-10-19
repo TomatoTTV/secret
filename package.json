@@ -7,9 +7,6 @@
     "start": "electron .",
     "build": "electron-builder build"
   },
-  "build": {
-    "files": "!**/release-builds/*"
-  },
   "author": "Tomato",
   "license": "ISC",
   "dependencies": {
@@ -25,7 +22,7 @@
   },
   "devDependencies": {
     "electron": "^9.4.4",
-    "electron-builder": "^22.10.5"
+    "electron-builder": "^22.13.1"
   },
   "repository": {
     "type": "git",
