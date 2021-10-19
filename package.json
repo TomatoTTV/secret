@@ -1,0 +1,38 @@
+{
+  "name": "redclient3.0",
+  "version": "3.0.0",
+  "description": "Comp Client for Kirka.io",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder build"
+  },
+  "build": {
+    "files": "!**/release-builds/*"
+  },
+  "author": "Tomato",
+  "license": "ISC",
+  "dependencies": {
+    "discord-rich-presence": "0.0.8",
+    "electron-localshortcut": "^3.2.1",
+    "electron-prompt": "^1.7.0",
+    "electron-squirrel-startup": "^1.0.0",
+    "electron-store": "^8.0.1",
+    "follow-redirects": "^1.14.4",
+    "get-blob-duration": "^1.2.0",
+    "node-fetch": "^2.6.5",
+    "v8-compile-cache": "^2.3.0"
+  },
+  "devDependencies": {
+    "electron": "^9.4.4",
+    "electron-builder": "^22.10.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomatoTTV/secret.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TomatoTTV/secret/issues"
+  },
+  "homepage": "https://github.com/TomatoTTV/secret#readme"
+}
